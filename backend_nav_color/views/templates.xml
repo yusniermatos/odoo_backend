@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_frontend" name="website_backend_nav_color" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/backend_nav_color/static/src/css/nav.css"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
